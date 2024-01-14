@@ -1,0 +1,309 @@
+//portfolio
+
+
+//html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjana - A Developer</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+   <header>
+    <nav>
+        <div class="left">Sanjana's Portfolio</div>
+        <div class="right">
+            <ul>
+               <li><a href="/">Home</a></li>
+                <li><a href='/'>About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+   </header>
+   <main>
+    
+    <section class="first">
+        <div class="leftsection">Hi, My name is <span class="purple">Sanjana</span>
+            <div>and I am a passionate</div>
+        <div>Web Developer</div>
+        
+        
+        </div>
+        <div class="rightsection"><img src="snap2.jpg" ></div>
+        
+        
+    </section>
+    <hr>
+    <section class="second">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top"src="snap3.png" alt="">
+            <div class="vertical-text">
+                Summer Intern (6 month)
+                </div>
+                </div>
+               
+                <div class="vertical">
+                    <img class="image-top"src="snap4.png" alt="">
+                    <div class="vertical-text">
+                        HTML Develpoer(2020-2021)
+                        </div>
+                        </div>
+                        <div class="vertical">
+                            <img class="image-top"src="snap7.png" alt="">
+                            <div class="vertical-text">
+                                CS Research(2021-2022)
+                                </div>
+                                </div>
+                                <div class="vertical">
+                                    <img class="image-top"src="snap6.png" alt="">
+                                    <div class="vertical-text">
+                                        Full Stack Developer(2022-2023)
+                                        <hr>
+                                       
+                                        </div>
+                                       
+                                        </div>
+                                        
+                
+          
+                                        </div>
+                                        </section> <hr>
+   
+        
+            <div class="one">
+              
+                <ul>
+                    <h1> Tech Skills</h1>
+                    
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>DSA</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>                    
+                    
+                </ul>
+                <ul>
+                    <h1> Project Section</h1>
+                    <li>E-commerce Enhacement</li>
+                    <li>Real time chap App</li>
+                    <li>Tracker Web App</li>
+                    <li>Database Integration</li>
+                    <li>Backend setup</li>
+                    <li>Project Setup</li>                    
+                    
+                </ul>
+                <ul>
+                    <h1>Contact Section</h1>
+                    <li>Mobile:123456789</li>
+                    <li>Email:abc@gmail.com</li>
+                    <li>LinkedIn:linkedin.com/in/abel</li>
+                    <li>Address:101/05 xyz</li>
+                                        
+                    
+                </ul>
+
+
+            </div> <hr>
+        
+        
+        
+    </div>
+    
+
+
+          
+   </main>
+   
+
+   
+   <footer>
+    <div class="footer">
+        <div class="one">
+            <ul>
+                <h3>Resources</h3>
+                <li>Blog</li>
+                <li>Help</li>
+                <li>FAQs</li>
+                <li>Videos</li>
+                <li>Dictionary</li>
+                <li>  E-books</li>
+                
+            </ul>
+            
+        </div>
+        <div class="two">
+            
+            
+        </div>
+        
+    </div>
+    <div>
+        <p>Disclaimer: Legal information is not legal advice, read the disclaimer. The information provided on this site is not legal advice, does not constitute a lawyer referral service, and no attorney-client or confidential relationship is or will be formed by use of the site</p>
+            <p>Copyright © 2012 - 2024 TermsFeed®. All rights reserved.</p>
+    </div>
+    
+   </footer>
+    
+</body>
+<script src="portfolio.js"></script></script>
+
+</html>
+
+
+//css
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(0,0,33);
+    color: white;
+    font-family: 'Poppins',sans-serif;
+
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18,18,62);
+}
+.left{
+    font-size: 1.5rem;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    
+
+}
+nav ul li{
+    list-style: none;
+    margin:0 23px ;
+
+}
+nav ul li a{
+    text-decoration: none;
+    margin:0 23px ;
+    text-decoration: none;
+    color: white;
+
+}
+nav ul li a:hover{
+  color: lavender; 
+  font-size: 1.01rem;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+   margin: 130px 0px;
+    align-items: center;
+    
+}
+.first > div{
+    width: 30%;
+}
+.leftsection{
+   
+    font-size: 3rem;
+    
+}
+.rightsection img{
+    background-size: ;
+    margin: 80px 0;
+    width: 60%; 
+    
+}
+.purple{
+    color: blue;
+}
+.second{
+    max-width: 80vw;
+    margin: auto;
+    height: 50vh;
+}
+.second h1{
+    font-size: 1.9rem;
+}
+.second .box{
+    background-color:white ;
+    width: 77vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.text-gray{
+    color: gray;
+}
+.second .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+    display: wrap;
+    justify-content: space-evenly;
+   
+}
+main hr{
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.2px;
+    margin:40px 84px;
+}
+.image-top{
+    width: 23px;
+    position: relative;
+    top:-32px;
+    left:-9px;
+
+}
+.vertical-text{
+position: relative;
+top: 75px;
+width: 150px;
+
+}
+.vertical-desc{
+position: relative;
+top: 86px;
+color: gray;
+width: 150px;
+font-size: 9px;
+}
+footer{
+    background-color: rgb(18,18,62);
+    height: 233px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 23px 122px;
+}
+.footer ul{
+    list-style-type: none;
+
+}
+.one{
+    display: flex;
+    justify-content: space-around;
+   margin: 0px 0px;
+    align-items: center;  
+    margin-bottom: 20px; 
+}
